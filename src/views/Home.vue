@@ -7,8 +7,11 @@
  -->
 <template>
   <div>主页</div>
+  <SliderBar />
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import SliderBar from "@/components/verify/SliderBar.vue";
+</script>
 
 <style scoped lang="scss"></style>
